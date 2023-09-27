@@ -36,12 +36,12 @@ export function tableTranspositionCipher(key, word){
 
 export function tableTranspositionCipherDecrypt(key, text) {
    // Проверка наличия ключа и слова
-   if (!key || !word) {
+   if (!key || !text) {
     return "Введите ключ и слово";
   }
 
   // Проверка валидности ключа (число от 1 до длины слова)
-  if (isNaN(key) || key < 1 || key > word.length) {
+  if (isNaN(key) || key < 1 || key > text.length) {
     return "Неверный ключ";
   }
 
