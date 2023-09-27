@@ -1,0 +1,42 @@
+.info-place{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.info-place p{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.info-place span{
+    background-color: azure;
+    color: #333;
+    padding: 2px;
+    border-radius: 15%;
+  }
+
+  .accordion {
+    border: 1px solid #ccc;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .accordion-header {
+    background-color: #f1f1f1;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .accordion-item.active .accordion-content {
+    display: block;
+  }
