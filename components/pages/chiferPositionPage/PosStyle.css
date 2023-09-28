@@ -4,7 +4,38 @@
     margin: 0 auto;
     padding: 20px;
   }
+  .info-place{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.example-place{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.example-place p{
+  width: 100%;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
 
+.info-place p{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.info-place span{
+    background-color: azure;
+    color: #333;
+    padding: 2px;
+    border-radius: 5%;
+  }
+  
 .result-elm{
   max-width: 700px;
   margin: 0 auto;
@@ -13,7 +44,7 @@
 .result-elm p{
   width: 100%;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   word-wrap: break-word;
 }
 .result-elm span{

@@ -5,6 +5,11 @@
 body{
     margin: 0;
 }
+.main-content{
+    margin: 0;
+    /* Растягиваем body по высоте html */
+    min-height: auto;
+}
 .nav-bar{
     background-color: #333;
     color: rgba(255, 255, 255, 0.87);
@@ -48,6 +53,45 @@ body{
     align-items: center;
     padding: 0.25rem;
 }
+.footer {
+    background-color: #f8f8f8;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    /* Позиционируем footer внизу main */
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    max-width: auto;
+    margin: 0 auto;
+  }
+  
+  .contact-info {
+    color: #333;
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .contact-info p {
+    color: #333;
+    margin: 5px 0;
+  }
+  .contact-info button{
+    font-size: 15px;
+  }
+  .nav-bar button:hover{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #333;
+  }
 
 /* Стили для телефонной ориентации */
 @media only screen and (max-width: 330px) {

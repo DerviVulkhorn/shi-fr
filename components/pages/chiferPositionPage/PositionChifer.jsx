@@ -21,6 +21,15 @@ function PositionChifer(){
     }
     return(
         <div>
+            <div className="info-place">
+                <p>В качестве входной строки - <span>любое слово или слова</span></p>
+                <p>В качестве ключа - <span>цифра</span> номинально не превышающая количество символов в строке</p>
+            </div>
+            <div className="example-place">
+                <p>Входная строка: HelloWorldThisIsALongString</p>
+                <p>Ключ: 5</p>
+                <p>Результат: HWTsgneohASglriLtllsorodIni</p>
+            </div>
             <div className="form-chifer">
                 <input type="text" onChange={(e)=> setInputValue(e.target.value)} placeholder="Ваше сообщение"/>
                 <input type="number" onChange={(e)=> setKeyValue(e.target.value)} placeholder="Ключ"/>

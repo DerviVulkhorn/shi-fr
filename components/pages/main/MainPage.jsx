@@ -5,8 +5,11 @@ import {Routes, Route, Link, Router} from "react-router-dom"
 import "./MainPageStyle.css"
 
 function MainPage() {
+    function btn_click(){
+        document.location='https://github.com/DerviVulkhorn'
+    }
     return(
-        <>
+        <div className="main-content">
         <nav className="nav-bar">
             <Link to="/" className="title-site"><span>ШИ</span>-фр</Link>
             <ul>
@@ -31,7 +34,15 @@ function MainPage() {
             <Route path="/position" element={<PositionPage/>}/>
             <Route path="/login" element={<Login/>}/>
         </Routes>
-        </>
+        <footer className="footer">
+        <div className="container">
+            <div className="contact-info">
+                <h3>О проекте</h3>
+                <p>GitHub: <button onClick={btn_click}>DerviVulkhorn</button></p>
+            </div>
+        </div>
+        </footer>
+        </div>
     )
 }
 
